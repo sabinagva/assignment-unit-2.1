@@ -65,14 +65,14 @@ if ( luckyNumber===2 && adventurous) {
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
 if (pets<allowedPets) {
-console.log ('I can have more pets')
+console.log ('I can have more pets');
 }
 else if (pets===allowedPets) {
-console.log ('i have enough pets')
+console.log ('i have enough pets');
 }
-else if
- (pets>allowedPets){
-console.log ('oh no, I have too many pets')
+else 
+ (pets>allowedPets) {
+console.log ('oh no, I have too many pets');
 }
 // STRETCH GOALS:
 
@@ -84,15 +84,15 @@ console.log ('oh no, I have too many pets')
 let mostPets;
 
 if (pets>friendsPets){
-    mostPets= pets
+    mostPets= pets;
 }
 else if (friendsPets>pets) {
-    mostPets=friendsPets
+    mostPets=friendsPets;
 }
 else if (friendsPets==pets) {
-    mostPets==friendsPets && mostPets==pets
+    mostPets==friendsPets && mostPets==pets;
 }
-else if (friendsPets==0 && pets==0) {
+else (friendsPets==0 && pets==0) {
     console.log ('Me and my firend dont have any pets')
 }
 
