@@ -89,12 +89,12 @@ if (pets>friendsPets){
 else if (friendsPets>pets) {
     mostPets=friendsPets;
 }
-else if (friendsPets==pets) {
-    mostPets==friendsPets && mostPets==pets;
+else if (friendsPets===pets) {
+    mostPets=friendsPets;
 }
-else (friendsPets==0 && pets==0) {
-    console.log ('Me and my firend dont have any pets')
-}
+// else if (friendsPets==0 && pets==0) {
+//     console.log ('Me and my firend dont have any pets')
+
 
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
